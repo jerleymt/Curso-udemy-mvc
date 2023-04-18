@@ -7,7 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Dominio\I_Repositorios\" />
+    <Folder Include="Dominio\I_Servicios\" />
     <Folder Include="Dominio\Modelos\" />
     <Folder Include="Servicios\" />
     <Folder Include="Persistencia\Repositorios\" />
