@@ -1,0 +1,9 @@
+
+//Nuevo comando sin clave
+Scaffold-Dbcontext "TrustServerCertificate=True;Server=DESKTOP-GK24MHA;Database=curso;Persist Security Info=False;Integrated Security=true;MultipleActiveResultSets=true" Microsoft.EntityFrameworkCore.SqlServer -o Dominio\Modelos
+
+//viejo comando con clave
+dotnet ef dbcontext scaffold "TrustServerCertificate=True;Server= DESKTOP-GK24MHA;Database=curso;user id=sa; password=juan1513; MultipleActiveResultSets=true" Microsoft.EntityFrameworkCore.SqlServer -o Dominio\Modelos
+
+//Nuevo comando con clave
+Scaffold-Dbcontext "TrustServerCertificate=True;Server= DESKTOP-GK24MHA;Database=curso;user id=sa; password=juan1513; MultipleActiveResultSets=true" Microsoft.EntityFrameworkCore.SqlServer -o Dominio\Modelos
