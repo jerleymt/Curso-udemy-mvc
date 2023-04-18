@@ -7,7 +7,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+<<<<<<< HEAD
     <Folder Include="Dominio\I_Servicios\" />
+=======
+    <Folder Include="Dominio\I_Repositorios\" />
+>>>>>>> 160e0c95eb7004e64ccc7b254be34ca4410137fa
     <Folder Include="Dominio\Modelos\" />
     <Folder Include="Servicios\" />
     <Folder Include="Persistencia\Repositorios\" />
